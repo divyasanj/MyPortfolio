@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h1 class="logo">Portfo<span>lio</span></h1>
+        
+        <div class="hamburger" id="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Internship</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <a href="#home" class="one">Myself</a>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h4>Hello, My Name is</h4>
+            <h1>Divya <span>S</span></h1>
+            <h3>I am Web Developer!</h3>
+            <div class="newslettr">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Lets start">
+                </form>
+                <p class="contact-info">
+                    <a href="tel:9361659846" class="contact-link">📞 9361659846</a>
+                    <a href="mailto:divyasivakumar1302@gmail.com" class="contact-link">📧 divyasivakumar1302@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="Assets/image/divi.jpeg" alt="Divya's Photo" class="about-img">
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h5>Developer <span>And</span> Young Coder</h5>
+                <p>To pursue the challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization.</p>
+                <p>Greetings! I'm Divya, I pursued my Information Technology at SNS College Of Technology <span>having a cgpa of 9.06.</span> Pursuing my HSC at SVGV matric.hr.sec school and I completed my SSLC at Gurukulam metriculation school.</p>
+                <button type="button" class="resume-btn">
+                    <a href="https://drive.google.com/file/d/1uoR-wxmZwfOyZG0VoCT99LdA3FB7gjTw/view?usp=drivesdk" target="_blank">Resume</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Internship-->
+    <section id="experience">
+        <div class="container">
+          <h2>Intern<span>ship</span></h2>
+          <div class="experience-grid">
+            <div class="experience-card">
+            
+              <h3>PYTHON INTERN</h3>
+              <p>Amypo Tech Pvt.Ltd</p>
+              <p>This intern helped me to connect the dots between theory and practice.</p>
+              <p>Sep 2023 - Oct 2023</p>
+            </div>
+            <div class="experience-card">
+             
+              <h3>CLOUD CONSULTANT INTERN</h3>
+              <p>National Skill Development Corporation (NSDC)</p>
+              <p>Exploring and implementing AWS cloud services</p>
+              <p>Dec 2022 - Feb 2023</p>
+            </div>
+            <div class="experience-card">
+              
+              <h3>WEB DEVELOPMENT INTERN</h3>
+              <p>CodSoft</p>
+              <p>Learned HTML,CSS and JAVASCRIPT during Web Development internship</p>
+              <p>June 2025 - Aug 2025</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <div class="section-title">
+                <h2>My <span>Skills</span></h2>
+                <h3>These Are The Technologies I Have Worked With</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="html">
+                    <img src="Assets/Language/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card" data-skill="css">
+                    <img src="Assets/Language/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card" data-skill="js">
+                    <img src="Assets/Language/js.png" alt="JavaScript">
+                    <p>JAVASCRIPT</p>
+                </div>
+                <div class="skill-card" data-skill="python">
+                    <img src="Assets/Language/py.png" alt="Python">
+                    <p>PYTHON</p>
+                </div>
+                <div class="skill-card" data-skill="cloud">
+                    <img src="Assets/Language/cloudd.png" alt="Cloud Computing">
+                    <p>CLOUD COMPUTING</p>
+                </div>
+                <div class="skill-card" data-skill="SQL">
+                    <img src="Assets/Language/sql.png" alt="Sql">
+                    <P>SQL</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>My <span>Projects</span></h2>
+            <h3>Check Out Some Of My Work Right Here</h3>
+        </div>
+        <div class="projects-grid">
+            <div>
+                <p style="text-align: center; color:Red;"><b>Seminar Booking Space</b></p>
+                <div class="project-card">
+                    <img src="Assets/Project/seminar.jpeg" alt="Seminar Project">
+                </div>
+            </div>
+            <div>
+                <p style="text-align: center; color:Red;"><b>E-Commerce Medical</b></p>
+                <div class="project-card">
+                    <img src="Assets/Project/medical.jpeg" alt="Medical Project">
+                </div>
+            </div>
+            <div>
+                <p style="text-align: center; color:Red;"><b>Automatic Irrigation System Controller</b></p>
+                <div class="project-card">
+                    <img src="Assets/Project/irrig.jpeg" alt="Irrigation Project">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Cont<span>act</span></h2>
+            <p>Submit the form below to get in touch with me</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="email" name="email" placeholder="Enter Your Email">
+            <button type="submit" class="submit-btn">Shoot</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Divya S</p>
+        <p>Excellence Built In Every Design!</p>
+        <div class="social-links">
+            <a href="http://www.linkedin.com/in/divyaasivakumar"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_.divya_13?igsh=eWI1ejk3N2RwZnR5"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/divyasanj"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="copyright">CopyRight By Divya @ 2025 </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
